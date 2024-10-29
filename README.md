@@ -21,7 +21,6 @@
 
 ## [ 1.c ] ALP to add two 16-bit numbers from consecutive memory locations and store result
 ![Relative](IMAGES/MPMC.png)
-
 | CODE           | COMMENTS                                                  |
 |----------------|-----------------------------------------------------------|
 | `LXI H, C050H` | Load memory location C050H into H-L pair                  |
