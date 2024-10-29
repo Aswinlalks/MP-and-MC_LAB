@@ -20,6 +20,8 @@
 | `HLT`      | End the program                                       |
 
 ## [ 1.c ] ALP to add two 16-bit numbers from consecutive memory locations and store result
+
+![Relative](IMAGES/MPMC.png)
 | CODE           | COMMENTS                                                  |
 |----------------|-----------------------------------------------------------|
 | `LXI H, C050H` | Load memory location C050H into H-L pair                  |
@@ -33,3 +35,4 @@
 | `MOV B, A`     | Move Accumulator value to B register                      |
 | `STA C050H`    | Store the final result in memory location C050H           |
 | `HLT`          | End the program                                           |
+
